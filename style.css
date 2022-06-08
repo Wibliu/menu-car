@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 2vh;
+    display: grid;
+    justify-content: center;
+}
+
+header{
+    display: grid;
+    position: relative;
+    text-align: center;
+}
+
+.conteudo-principal { 
+    padding: 2vh;  
+    border-radius: 2%;
+    background-image: url("img/fundo.png");
+    width: 40vmax;
+    height: 68vmax;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 4em;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 1em
+
+}
+
+p{
+    font-size: 2em;
+    text-align: end;
+    padding-left: 2em;
+    color: aliceblue;
+}
+
+ a{
+    width: 20vmax;
+    display: grid;
+    position: relative;
+    border: 1px solid none;
+    padding: 2vh;
+    top: 25vh;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    background-color: aliceblue;
+    left: 15vh;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20%;
+}
+
+a:hover{
+    border-radius: 30%;
+    background-color: rgb(148, 156, 168);
+    transition: 0.222s;
+}
+
+@media screen and (max-width:412px) { 
+    .conteudo-principal { 
+        padding: 2vh;  
+        border-radius: 2%;
+        background-image: url("img/fundo.png");
+        width: 40vmax;
+        height: 100vmax;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
